@@ -164,11 +164,22 @@ class Reserva:
 
         try:
             # Calcular el costo mediante polimorfismo
-            total = self.__servicio.calcular_costo(
-                self.__duracion,
-                descuento,
-                impuesto
-            )
+            if "cantidad" in self.__parametros_servicio:
+
+                total = self.__servicio.calcular_costo(
+                    self.__duracion,
+                    descuento,
+                    impuesto,
+                    cantidad=self.__parametros_servicio["cantidad"]
+                )
+
+            else:
+
+               total = self.__servicio.calcular_costo(
+                   self.__duracion,
+                   descuento,
+                   impuesto
+      )
 
             if total < 0:
                 raise DatosInvalidosError(

@@ -21,3 +21,72 @@
 2026-11-09 15:47:27,042 - INFO - Reserva 5 confirmada.
 2026-11-09 15:47:27,042 - INFO - Reserva 5 cancelada.
 2026-11-09 15:47:27,044 - INFO - Ejecucion del sistema Software FJ finalizada.
+2026-11-10 13:47:31,228 - INFO - Modulo de excepciones cargado correctamente.
+2026-11-10 13:47:31,233 - INFO - Modulo de servicios cargado correctamente.
+2026-11-10 13:47:31,237 - INFO - Cliente registrado: Carlos Ramirez
+2026-11-10 13:47:31,238 - ERROR - Registro de cliente invalido: El correo electronico no es valido.
+2026-11-10 13:47:31,242 - ERROR - Creacion de servicio invalido: El precio base debe ser un numero mayor que cero.
+2026-11-10 13:47:31,243 - INFO - Reserva 1 creada para Carlos Ramirez.
+2026-11-10 13:47:31,243 - INFO - Reserva 1 confirmada.
+2026-11-10 13:47:31,243 - INFO - Reserva 1 procesada. Costo total: 163.35
+2026-11-10 13:47:31,244 - INFO - Finalizo el intento de procesamiento de la reserva 1.
+2026-11-10 13:47:31,246 - INFO - Reserva 2 creada para Carlos Ramirez.
+2026-11-10 13:47:31,247 - ERROR - Error al confirmar reserva 2: La sala no tiene capacidad suficiente.
+2026-11-10 13:47:31,248 - INFO - Reserva 3 creada para Carlos Ramirez.
+2026-11-10 13:47:31,248 - INFO - Reserva 3 confirmada.
+2026-11-10 13:47:31,248 - INFO - Reserva 3 procesada. Costo total: 68.97
+2026-11-10 13:47:31,249 - INFO - Finalizo el intento de procesamiento de la reserva 3.
+2026-11-10 13:47:31,250 - INFO - Reserva 4 creada para Carlos Ramirez.
+2026-11-10 13:47:31,251 - INFO - Reserva 4 confirmada.
+2026-11-10 13:47:31,251 - INFO - Reserva 4 procesada. Costo total: 145.2
+2026-11-10 13:47:31,251 - INFO - Finalizo el intento de procesamiento de la reserva 4.
+2026-11-10 13:47:31,252 - INFO - Reserva 5 creada para Carlos Ramirez.
+2026-11-10 13:47:31,253 - INFO - Reserva 5 confirmada.
+2026-11-10 13:47:31,253 - INFO - Reserva 5 cancelada.
+2026-11-10 13:47:31,258 - INFO - Ejecucion del sistema Software FJ finalizada.
+2026-11-10 14:39:35,939 - INFO - Modulo de excepciones cargado correctamente.
+2026-11-10 14:39:35,944 - INFO - Modulo de servicios cargado correctamente.
+2026-11-10 14:39:35,947 - INFO - Cliente registrado: Carlos Ramirez
+2026-11-10 14:39:35,948 - ERROR - Registro de cliente invalido: El correo electronico no es valido.
+2026-11-10 14:39:35,952 - ERROR - Creacion de servicio invalido: El precio base debe ser un numero mayor que cero.
+2026-11-10 14:39:35,952 - INFO - Reserva 1 creada para Carlos Ramirez.
+2026-11-10 14:39:35,953 - INFO - Reserva 1 confirmada.
+2026-11-10 14:39:35,953 - ERROR - Error al procesar reserva 1: unsupported operand type(s) for ** or pow(): 'float' and 'dict'
+2026-11-10 14:39:35,953 - INFO - Finalizo el intento de procesamiento de la reserva 1.
+2026-11-10 14:39:35,954 - INFO - Reserva 2 creada para Carlos Ramirez.
+2026-11-10 14:39:35,954 - ERROR - Error al confirmar reserva 2: La sala no tiene capacidad suficiente.
+2026-11-10 14:39:35,955 - INFO - Reserva 3 creada para Carlos Ramirez.
+2026-11-10 14:39:35,955 - INFO - Reserva 3 confirmada.
+2026-11-10 14:39:35,956 - ERROR - Error al procesar reserva 3: unsupported operand type(s) for ** or pow(): 'float' and 'dict'
+2026-11-10 14:39:35,956 - INFO - Finalizo el intento de procesamiento de la reserva 3.
+2026-11-10 14:39:35,957 - INFO - Reserva 4 creada para Carlos Ramirez.
+2026-11-10 14:39:35,957 - INFO - Reserva 4 confirmada.
+2026-11-10 14:39:35,958 - ERROR - Error al procesar reserva 4: unsupported operand type(s) for ** or pow(): 'float' and 'dict'
+2026-11-10 14:39:35,958 - INFO - Finalizo el intento de procesamiento de la reserva 4.
+2026-11-10 14:39:35,959 - INFO - Reserva 5 creada para Carlos Ramirez.
+2026-11-10 14:39:35,959 - INFO - Reserva 5 confirmada.
+2026-11-10 14:39:35,959 - INFO - Reserva 5 cancelada.
+2026-11-10 14:39:35,962 - INFO - Ejecucion del sistema Software FJ finalizada.
+2026-11-10 14:55:48,558 - INFO - Modulo de excepciones cargado correctamente.
+2026-11-10 14:55:48,564 - INFO - Modulo de servicios cargado correctamente.
+2026-11-10 14:55:48,569 - INFO - Cliente registrado: Carlos Ramirez
+2026-11-10 14:55:48,570 - ERROR - Registro de cliente invalido: El correo electronico no es valido.
+2026-11-10 14:55:48,572 - ERROR - Creacion de servicio invalido: El precio base debe ser un numero mayor que cero.
+2026-11-10 14:55:48,573 - INFO - Reserva 1 creada para Carlos Ramirez.
+2026-11-10 14:55:48,574 - INFO - Reserva 1 confirmada.
+2026-11-10 14:55:48,612 - INFO - Reserva 1 procesada. Costo total: 163.35
+2026-11-10 14:55:48,612 - INFO - Finalizo el intento de procesamiento de la reserva 1.
+2026-11-10 14:55:48,613 - INFO - Reserva 2 creada para Carlos Ramirez.
+2026-11-10 14:55:48,614 - ERROR - Error al confirmar reserva 2: La sala no tiene capacidad suficiente.
+2026-11-10 14:55:48,615 - INFO - Reserva 3 creada para Carlos Ramirez.
+2026-11-10 14:55:48,615 - INFO - Reserva 3 confirmada.
+2026-11-10 14:55:48,616 - INFO - Reserva 3 procesada. Costo total: 206.91
+2026-11-10 14:55:48,616 - INFO - Finalizo el intento de procesamiento de la reserva 3.
+2026-11-10 14:55:48,617 - INFO - Reserva 4 creada para Carlos Ramirez.
+2026-11-10 14:55:48,618 - INFO - Reserva 4 confirmada.
+2026-11-10 14:55:48,618 - INFO - Reserva 4 procesada. Costo total: 145.2
+2026-11-10 14:55:48,618 - INFO - Finalizo el intento de procesamiento de la reserva 4.
+2026-11-10 14:55:48,619 - INFO - Reserva 5 creada para Carlos Ramirez.
+2026-11-10 14:55:48,620 - INFO - Reserva 5 confirmada.
+2026-11-10 14:55:48,620 - INFO - Reserva 5 cancelada.
+2026-11-10 14:55:48,623 - INFO - Ejecucion del sistema Software FJ finalizada.

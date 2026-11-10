@@ -206,17 +206,18 @@ class AlquilerEquipo(Servicio):
         self.verificar_disponibilidad()
         return True
 
-    def calcular_costo(self, duracion, descuento=0, impuesto=0.0):
+    def calcular_costo(self, duracion, descuento=0, impuesto=0.0, cantidad=1):
 
         self.validar_costo(duracion, descuento, impuesto)
+        self.validar_parametros(cantidad=cantidad)
         self.verificar_disponibilidad()
 
-        subtotal = self.precio_base * duracion
+        subtotal = self.precio_base * duracion * cantidad
         subtotal -= subtotal * descuento / 100
         total = subtotal * (1 + impuesto)
 
         return round(total, 2)
-
+    
     def describir_servicio(self):
 
         return (
