@@ -117,11 +117,14 @@ class Reserva:
             self.__estado = "Confirmada"
 
         except Exception as error:
+            self.__estado = "Fallida"
+
             registrar_evento(
                 f"Error al confirmar reserva "
                 f"{self.__identificador}: {error}",
                 "error"
             )
+
             raise ReservaInvalidaError(
                 "No fue posible confirmar la reserva."
             ) from error

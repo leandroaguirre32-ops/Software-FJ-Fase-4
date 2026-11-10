@@ -90,3 +90,26 @@
 2026-11-10 14:55:48,620 - INFO - Reserva 5 confirmada.
 2026-11-10 14:55:48,620 - INFO - Reserva 5 cancelada.
 2026-11-10 14:55:48,623 - INFO - Ejecucion del sistema Software FJ finalizada.
+2026-11-10 15:46:08,141 - INFO - Modulo de excepciones cargado correctamente.
+2026-11-10 15:46:08,146 - INFO - Modulo de servicios cargado correctamente.
+2026-11-10 15:46:08,150 - INFO - Cliente registrado: Carlos Ramirez
+2026-11-10 15:46:08,151 - ERROR - Registro de cliente invalido: El correo electronico no es valido.
+2026-11-10 15:46:08,155 - ERROR - Creacion de servicio invalido: El precio base debe ser un numero mayor que cero.
+2026-11-10 15:46:08,157 - INFO - Reserva 1 creada para Carlos Ramirez.
+2026-11-10 15:46:08,157 - INFO - Reserva 1 confirmada.
+2026-11-10 15:46:08,158 - INFO - Reserva 1 procesada. Costo total: 163.35
+2026-11-10 15:46:08,158 - INFO - Finalizo el intento de procesamiento de la reserva 1.
+2026-11-10 15:46:08,160 - INFO - Reserva 2 creada para Carlos Ramirez.
+2026-11-10 15:46:08,161 - ERROR - Error al confirmar reserva 2: La sala no tiene capacidad suficiente.
+2026-11-10 15:46:08,162 - INFO - Reserva 3 creada para Carlos Ramirez.
+2026-11-10 15:46:08,163 - INFO - Reserva 3 confirmada.
+2026-11-10 15:46:08,163 - INFO - Reserva 3 procesada. Costo total: 206.91
+2026-11-10 15:46:08,164 - INFO - Finalizo el intento de procesamiento de la reserva 3.
+2026-11-10 15:46:08,164 - INFO - Reserva 4 creada para Carlos Ramirez.
+2026-11-10 15:46:08,165 - INFO - Reserva 4 confirmada.
+2026-11-10 15:46:08,165 - INFO - Reserva 4 procesada. Costo total: 145.2
+2026-11-10 15:46:08,165 - INFO - Finalizo el intento de procesamiento de la reserva 4.
+2026-11-10 15:46:08,166 - INFO - Reserva 5 creada para Carlos Ramirez.
+2026-11-10 15:46:08,166 - INFO - Reserva 5 confirmada.
+2026-11-10 15:46:08,166 - INFO - Reserva 5 cancelada.
+2026-11-10 15:46:08,171 - INFO - Ejecucion del sistema Software FJ finalizada.
