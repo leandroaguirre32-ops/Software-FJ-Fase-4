@@ -421,6 +421,39 @@ def ejecutar_sistema():
         print("Operacion 11 finalizada.")
 
     # ------------------------------------------------------
+    # OPERACION 12: SERVICIO NO DISPONIBLE
+    # ------------------------------------------------------
+
+    mostrar_titulo("OPERACION 12: SERVICIO NO DISPONIBLE")
+
+    try:
+        sala_no_disponible = ReservaSala(
+            "S003",
+            "Sala fuera de servicio",
+            50,
+            20,
+            disponible=False
+        )
+
+        servicios.append(sala_no_disponible)
+
+        reserva_no_disponible = Reserva(
+            cliente1,
+            sala_no_disponible,
+            1,
+            asistentes=5
+        )
+
+        reservas.append(reserva_no_disponible)
+        reserva_no_disponible.confirmar()
+
+    except ReservaInvalidaError as error:
+        print("Reserva rechazada por disponibilidad:", error)
+
+    except ErrorSistema as error:
+        print("Error controlado:", error)
+
+    # ------------------------------------------------------
     # RESUMEN GENERAL DEL SISTEMA
     # ------------------------------------------------------
     mostrar_titulo("RESUMEN GENERAL DEL SISTEMA")

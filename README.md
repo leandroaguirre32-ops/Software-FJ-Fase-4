@@ -33,6 +33,7 @@ Desarrollar una aplicación organizada mediante programación orientada a objeto
 - Reserva de salas.
 - Alquiler de equipos.
 - Asesorías especializadas.
+- Validación de servicios no disponibles.
 
 ## 6. Ejecución del programa
 
@@ -45,6 +46,8 @@ py main.py
 ```
 
 ## 7. Manejo de errores
+
+Los métodos de cálculo aceptan parámetros opcionales para descuento e impuesto; el alquiler de equipos también admite la cantidad de unidades. Así se ofrecen distintas variantes de cálculo mediante la firma flexible de Python.
 
 El sistema utiliza excepciones personalizadas para controlar datos incorrectos, servicios no disponibles y operaciones no permitidas.
 
